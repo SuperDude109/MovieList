@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useState, useEffect } from 'react';
-
+import SearchBar from './Components/SearchBar/SearchBar';
 
 const movies = []
 
@@ -21,7 +21,7 @@ function App() {
           Movie List
       </header>
       <div>
-        <ol>{movieList.map((movie,index) => {return (<li key = {index}>{movie.title}</li>)})}</ol>
+        <SearchBar listToSearch={movieList}/>
       </div>
     </div>
   );
