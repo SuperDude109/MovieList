@@ -1,0 +1,16 @@
+.movie-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.delete{
+  padding: 3px;
+}
+
+.movie-name{
+  padding: 1%;
+}
+
+.delete:hover{
+  background-color: rgb(156, 1, 1);
+}

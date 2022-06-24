@@ -3,8 +3,7 @@
 /**
  * @type { Object.<string, import("knex").Knex.Config> }
  */
-module.exports = {
-
+export default {
   development: {
     client: 'pg',
     connection: 'postgres://postgres:docker@localhost/movie_list'
@@ -43,3 +42,4 @@ module.exports = {
   }
 
 };
+
